@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Dev mode" type="CompoundRunConfigurationType">
+   <toRun name="Backend" type="QuarkusRunConfigurationType" />
+    <toRun name="Frontend run dev" type="js.build_tools.npm" />
+    <method v="2" />
+  </configuration>
+</component>
