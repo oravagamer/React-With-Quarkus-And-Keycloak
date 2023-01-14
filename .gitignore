@@ -2,3 +2,6 @@
 .run
 
 backend-private
+
+docker-run.bat
+query.sql
