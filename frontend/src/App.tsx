@@ -11,11 +11,7 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: (
-        <OidcSecure>
-          <Layout />
-        </OidcSecure>
-      ),
+      element: <Layout />,
       errorElement: <ErrorPage />,
       children: [
         {
@@ -24,7 +20,11 @@ function App() {
         },
         {
           path: "profile",
-          element: <ProfilePage />,
+          element: (
+            <OidcSecure>
+              <ProfilePage />
+            </OidcSecure>
+          ),
         },
       ],
     },

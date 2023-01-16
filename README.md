@@ -57,7 +57,7 @@ docker run --name keycloak --network keycloak-net --ip 192.168.0.2 -p 8080:8080 
 ### Create database and user for quarkus
 [Connect to console](https://github.com/oravagamer/React-With-Quarkus-And-Keycloak#connect-to-psql-console)
 ```sql
-create database RWQAK_backend;
-create user RWQAK_backend with password 'RWQAK_backend' superuser;
+create database rwqak_backend;
+create user rwqak_backend with password 'rwqak_backend' superuser;
 ```
 
